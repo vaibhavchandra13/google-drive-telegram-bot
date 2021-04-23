@@ -4,7 +4,7 @@ class config:
     API_HASH = "a6406a4be8d831a0ca474a7834ae2e31"
     DATABASE_URL = "postgres://ktlobguderhoxm:46f4b4772692bb4a2d50f1707aaeb88a8fcbbccc9447aa818d6195fe5150505c@ec2-54-163-254-204.compute-1.amazonaws.com:5432/d5bv91gui44b1t"
     SUDO_USERS = "1468309042" # Sepearted by space.
-    SUPPORT_CHAT_LINK = "http://t.me/devsmods"
+    SUPPORT_CHAT_LINK = "http://t.me/vancedsupport"
     DOWNLOAD_DIRECTORY = "./downloads/"
     G_DRIVE_CLIENT_ID = "604437446058-askd3sq1c7th37lb68aj0n0k1ejcibf7.apps.googleusercontent.com"
     G_DRIVE_CLIENT_SECRET = "tIjsPQp9NDwG0Nv6k_AEt9PV"
@@ -21,7 +21,7 @@ class BotCommands:
   YtDl = ['ytdl']
 
 class Messages:
-    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__"
+    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help.__\n__Please authenticate me to your Google Drive by /auth"
 
     HELP_MSG = [
         ".",
@@ -40,7 +40,7 @@ class Messages:
         "**Rules & Precautions**\n__1. Don't copy BIG Google Drive Files/Folders. It may hang the bot and your files maybe damaged.\n2. Send One request at a time unless bot will stop all processes.\n3. Don't send slow links @transload it first.\n4. Don't misuse, overload or abuse this free service.__",
         
         # Dont remove this ↓ if you respect developer.
-        "**Official launched on 22 April 2021 by @TechTizier**"
+        "**Official launched on 22 April 2021 by @VancedSupport**"
         ]
      
     RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded try after 24 hours.__"
